@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>User Form</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    </head>
+    <body>
+        
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 mx-auto">
+                    <h1>User Form</h1>
+                    <form >
+                        <div class="form-group">
+                            <label>Name</label>
+                            <input type="text" class="form-control " id="name" placeholder="Name">
+                            <div class="invalid-feedback">Name must be between 2 and 10 charcters</div>
+                        </div>
+                        <div class="form-group">
+                            <label>Zipcode</label>
+                            <input type="text" class="form-control " id="zip" placeholder="Zipcode">
+                            <div class="invalid-feedback">Enter a valid zipcode</div>
+                        </div>
+                        <div class="form-group">
+                            <label>Email</label>
+                            <input type="email" class="form-control " id="email" placeholder="Email">
+                            <div class="invalid-feedback">Enter a valid email</div>
+                        </div>
+                        <div class="form-group">
+                            <label>Phone Number</label>
+                            <input type="number" class="form-control " id="phone" placeholder="Phone Number">
+                            <div class="invalid-feedback">Enter a valid Phone Number</div>
+                        </div>
+                        <input type="submit" value="Submit" class="btn btn-primary btn-block">
+                    </form>
+                </div>
+            </div>
+        </div>
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+        <script src="./app.js"></script>
+    </body>
+</html>
